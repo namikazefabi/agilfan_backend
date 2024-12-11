@@ -1,6 +1,6 @@
 import { AppDataSource } from '../data-source';
 import { Repository } from 'typeorm';
-import { Pagamento } from '../entity/Pagamento';
+import { Pagamento } from '../models/Pagamento';
 
 class PagamentoService {
   private pagamentoRepository: Repository<Pagamento>;

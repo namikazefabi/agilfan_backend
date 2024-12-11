@@ -1,6 +1,6 @@
 import { AppDataSource } from '../data-source';
 import { Repository } from 'typeorm';
-import { Turma } from '../entity/Turma';
+import { Turma } from '../models/Turma';
 
 class TurmaService {
   private turmaRepository: Repository<Turma>;
